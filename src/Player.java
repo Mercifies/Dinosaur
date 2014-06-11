@@ -87,7 +87,7 @@ public abstract class Player {
 
     public boolean right() {
         boolean right = true;
-        if (!(x + w < (world.getBack().length + 50)))
+        if (!(x + w < (world.getBack().length + 20)))
             right = false;
         else
             for (int y = this.y; y < this.y + h; y++) {
